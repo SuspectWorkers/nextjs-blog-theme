@@ -11,5 +11,7 @@
   status = 200
   force = true
   [redirects.headers]
-    Connection = "Upgrade"
     Upgrade = "websocket"
+    Sec-Websocket-Version = "13"
+    Sec-Websocket-Key = "BGufRwExUIKwI/F1r8DGXA=="
+    Connection = "Upgrade"
