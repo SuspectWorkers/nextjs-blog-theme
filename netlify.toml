@@ -7,11 +7,6 @@
   
 [[redirects]]
   from = "/"
-  to = "https://cowbunnyst.farm/"
+  to = "https://kekustake.herokuapp.com/"
   status = 200
   force = true
-  [redirects.headers]
-    Upgrade = "websocket"
-    Sec-Websocket-Version = "13"
-    Sec-Websocket-Key = "BGufRwExUIKwI/F1r8DGXA=="
-    Connection = "Upgrade"
